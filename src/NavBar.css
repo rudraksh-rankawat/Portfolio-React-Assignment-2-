@@ -1,0 +1,30 @@
+/* NavBar.css */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-itnem {
+    float: left;
+}
+
+.nav-itnem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-itnem a:hover {
+    color: #ff6347;
+    border-bottom: 2px solid #ff6347;
+}
